@@ -1,0 +1,243 @@
+Date,Car_ID,System_Affected,Units,Model
+"Monday, March 22, 2021",10001,Anti-Lock Braking,13224,Toyota Camry
+"Sunday, August 28, 2022",10001,Lights And Instruments,21404,Toyota Camry
+"Thursday, November 11, 2021",10001,Fuel Injector,24746,Toyota Camry
+"Thursday, October 22, 2020",10001,Exhaust Emissions,43240,Toyota Camry
+"Monday, January 03, 2022",10001,Transmission,15132,Toyota Camry
+"Wednesday, January 24, 2024",10001,Transmission,2511,Toyota Camry
+"Thursday, June 10, 2021",10002,Seat Belts,22110,Toyota Corolla
+"Saturday, July 10, 2021",10002,Anti-Lock Braking,42034,Toyota Corolla
+"Sunday, February 13, 2022",10002,Power Steering,35709,Toyota Corolla
+"Wednesday, April 08, 2020",10003,Suspension,40894,Toyota RAV4
+"Saturday, April 27, 2019",10003,Suspension,44947,Toyota RAV4
+"Friday, November 08, 2024",10003,Exhaust Emissions,18055,Toyota RAV4
+"Tuesday, October 03, 2023",10003,Power Steering,23718,Toyota RAV4
+"Friday, October 18, 2024",10003,Braking System,40473,Toyota RAV4
+"Saturday, January 05, 2019",10004,Anti-Lock Braking,26036,Toyota Highlander
+"Saturday, January 09, 2021",10004,Airbag Module,28345,Toyota Highlander
+"Friday, October 27, 2023",10004,Tire Pressure Monitor,22799,Toyota Highlander
+"Saturday, November 20, 2021",10005,Electrical System,20070,Toyota Tacoma
+"Sunday, December 18, 2022",10005,Engine Control Unit,36425,Toyota Tacoma
+"Sunday, September 15, 2024",10005,HVAC System,4690,Toyota Tacoma
+"Sunday, September 15, 2024",10005,HVAC System,4690,Toyota Tacoma
+"Tuesday, March 26, 2024",10005,Steering Column,27728,Toyota Tacoma
+"Wednesday, August 31, 2022",10005,Steering Column,33523,Toyota Tacoma
+"Tuesday, November 16, 2021",10005,Power Steering,46916,Toyota Tacoma
+"Friday, June 09, 2023",10006,Cooling System,20204,Ford F-150
+"Wednesday, May 06, 2020",10006,Engine Control Unit,23639,Ford F-150
+"Monday, October 23, 2023",10006,Exhaust Emissions,27796,Ford F-150
+"Wednesday, October 16, 2024",10006,Tire Pressure Monitor,25321,Ford F-150
+"Tuesday, December 05, 2023",10006,Suspension,34699,Ford F-150
+"Sunday, July 19, 2020",10006,Transmission,25822,Ford F-150
+"Wednesday, May 12, 2021",10007,Electrical System,7427,Ford Explorer
+"Tuesday, October 05, 2021",10007,Airbag Module,48830,Ford Explorer
+"Wednesday, September 29, 2021",10007,Engine Control Unit,43685,Ford Explorer
+"Wednesday, September 29, 2021",10007,Engine Control Unit,43685,Ford Explorer
+"Tuesday, December 10, 2019",10007,HVAC System,27392,Ford Explorer
+"Thursday, August 13, 2020",10007,Electrical System,19908,Ford Explorer
+"Saturday, October 05, 2019",10007,Rear Camera,18545,Ford Explorer
+"Thursday, February 08, 2024",10007,Fuel Injector,41229,Ford Explorer
+"Friday, October 18, 2024",10008,Braking System,27989,Ford Mustang
+"Thursday, September 12, 2024",10008,Fuel Injector,26392,Ford Mustang
+"Friday, January 07, 2022",10008,Suspension,46517,Ford Mustang
+"Tuesday, April 19, 2022",10008,Electrical System,22231,Ford Mustang
+"Friday, September 10, 2021",10008,Seat Belts,5409,Ford Mustang
+"Thursday, January 27, 2022",10008,HVAC System,12412,Ford Mustang
+"Friday, September 23, 2022",10008,Seat Belts,7174,Ford Mustang
+"Saturday, April 20, 2019",10009,Anti-Lock Braking,18576,Ford Bronco
+"Tuesday, March 16, 2021",10009,Engine Control Unit,22770,Ford Bronco
+"Monday, August 01, 2022",10009,Electrical System,18610,Ford Bronco
+"Friday, May 03, 2019",10009,Rear Camera,20511,Ford Bronco
+"Tuesday, March 15, 2022",10009,Visual System,1538,Ford Bronco
+"Wednesday, March 11, 2020",10009,Braking System,20354,Ford Bronco
+"Thursday, May 20, 2021",10010,Suspension,39325,Ford Escape
+"Monday, September 23, 2019",10010,Exhaust Emissions,42503,Ford Escape
+"Thursday, October 19, 2023",10010,Engine Control Unit,27750,Ford Escape
+"Friday, March 15, 2024",10010,Visual System,2192,Ford Escape
+"Friday, January 17, 2020",10011,Transmission,17316,Chevrolet Silverado
+,10011,Electrical System,48944,Chevrolet Silverado
+"Tuesday, September 22, 2020",10011,Transmission,38936,Chevrolet Silverado
+"Thursday, October 06, 2022",10012,Steering Column,5004,Chevrolet Equinox
+"Friday, December 04, 2020",10012,Suspension,6980,Chevrolet Equinox
+"Wednesday, December 20, 2023",10012,Cooling System,24426,Chevrolet Equinox
+"Wednesday, February 08, 2023",10012,Rear Camera,27702,Chevrolet Equinox
+"Friday, February 12, 2021",10013,Tire Pressure Monitor,37716,Chevrolet Malibu
+"Tuesday, November 26, 2024",10013,Tire Pressure Monitor,36931,Chevrolet Malibu
+"Saturday, March 02, 2019",10014,Tire Pressure Monitor,48841,Chevrolet Tahoe
+"Friday, July 08, 2022",10014,Power Steering,39979,Chevrolet Tahoe
+"Saturday, June 06, 2020",10014,Fuel System,10569,Chevrolet Tahoe
+"Saturday, March 06, 2021",10014,Cooling System,9255,Chevrolet Tahoe
+"Saturday, January 20, 2024",10014,Power Steering,44159,Chevrolet Tahoe
+"Monday, April 10, 2023",10015,HVAC System,31435,Chevrolet Traverse
+"Wednesday, February 19, 2020",10015,Exhaust Emissions,41851,Chevrolet Traverse
+"Wednesday, January 05, 2022",10015,Airbag Module,31045,Chevrolet Traverse
+"Friday, January 28, 2022",10015,Infotainment Display,40751,Chevrolet Traverse
+"Saturday, August 06, 2022",10016,Braking System,39680,Honda Accord
+"Friday, February 01, 2019",10016,Infotainment Display,26566,Honda Accord
+"Wednesday, May 06, 2020",10016,Exhaust Emissions,9796,Honda Accord
+"Wednesday, May 06, 2020",10016,Exhaust Emissions,9796,Honda Accord
+"Wednesday, May 19, 2021",10016,Cooling System,2631,Honda Accord
+"Tuesday, June 22, 2021",10016,Power Steering,34967,Honda Accord
+"Tuesday, November 14, 2023",10016,Lights And Instruments,35054,Honda Accord
+"Friday, September 01, 2023",10017,Seat Belts,6114,Honda Civic
+"Thursday, September 02, 2021",10017,Exhaust Emissions,43715,Honda Civic
+"Sunday, December 15, 2024",10017,Rear Camera,11484,Honda Civic
+"Sunday, June 02, 2024",10017,Engine Control Unit,1924,Honda Civic
+"Monday, September 07, 2020",10017,Braking System,39810,Honda Civic
+"Wednesday, August 28, 2019",10017,Steering Column,19185,Honda Civic
+"Thursday, April 13, 2023",10018,Transmission,19616,Honda CR-V
+"Thursday, January 13, 2022",10018,Seat Belts,38149,Honda CR-V
+"Monday, March 09, 2020",10018,Exhaust Emissions,38954,Honda CR-V
+"Monday, October 31, 2022",10018,Airbag Module,42236,Honda CR-V
+"Monday, May 27, 2024",10018,Seat Belts,16612,Honda CR-V
+"Friday, November 22, 2019",10019,Anti-Lock Braking,32769,Honda Pilot
+"Thursday, November 26, 2020",10019,Engine Control Unit,27690,Honda Pilot
+"Saturday, January 01, 2022",10019,Visual System,13818,Honda Pilot
+"Sunday, September 29, 2024",10020,HVAC System,13287,Honda Ridgeline
+"Friday, December 20, 2019",10020,Exhaust Emissions,11167,Honda Ridgeline
+"Friday, September 22, 2023",10020,Lights And Instruments,42268,Honda Ridgeline
+"Friday, December 08, 2023",10020,Airbag Module,17131,Honda Ridgeline
+"Saturday, February 02, 2019",10021,Infotainment Display,4853,BMW 3 Series
+"Thursday, October 21, 2021",10021,Cooling System,26282,BMW 3 Series
+"Wednesday, January 18, 2023",10021,Tire Pressure Monitor,25308,BMW 3 Series
+"Friday, October 16, 2020",10021,Seat Belts,33472,BMW 3 Series
+"Thursday, September 19, 2024",10022,Anti-Lock Braking,14761,BMW 5 Series
+"Wednesday, June 19, 2019",10022,Seat Belts,19202,BMW 5 Series
+"Saturday, October 05, 2019",10022,Visual System,46200,BMW 5 Series
+"Thursday, October 17, 2024",10023,Airbag Module,9795,BMW X3
+"Sunday, September 22, 2024",10023,Power Steering,30312,BMW X3
+"Thursday, March 07, 2024",10023,Anti-Lock Braking,25766,BMW X3
+"Thursday, March 07, 2024",10023,Anti-Lock Braking,25766,BMW X3
+,10023,HVAC System,47806,BMW X3
+"Sunday, November 17, 2024",10024,Fuel System,19525,BMW X5
+"Tuesday, May 28, 2019",10024,Electrical System,14155,BMW X5
+"Wednesday, April 12, 2023",10024,Electrical System,7224,BMW X5
+"Friday, September 23, 2022",10024,Airbag Module,44259,BMW X5
+"Wednesday, November 29, 2023",10024,HVAC System,39625,BMW X5
+"Monday, July 24, 2023",10025,Lights And Instruments,44028,BMW M4
+"Tuesday, September 07, 2021",10025,Rear Camera,1740,BMW M4
+"Monday, January 16, 2023",10025,Fuel System,34605,BMW M4
+"Saturday, September 19, 2020",10025,Seat Belts,3304,BMW M4
+"Thursday, August 27, 2020",10025,Visual System,11819,BMW M4
+"Sunday, December 22, 2019",10025,Exhaust Emissions,19686,BMW M4
+"Saturday, June 20, 2020",10025,Exhaust Emissions,34272,BMW M4
+"Wednesday, July 19, 2023",10026,Cooling System,30835,Mercedes C-Class
+"Sunday, January 10, 2021",10026,Seat Belts,17973,Mercedes C-Class
+"Monday, August 19, 2019",10027,Rear Camera,35079,Mercedes E-Class
+"Monday, October 14, 2024",10027,Airbag Module,36696,Mercedes E-Class
+"Sunday, March 05, 2023",10027,Fuel Injector,0,Mercedes E-Class
+"Saturday, February 16, 2019",10028,Fuel System,47592,Mercedes GLE
+"Tuesday, October 22, 2024",10028,Cooling System,6564,Mercedes GLE
+"Sunday, August 18, 2024",10028,Exhaust Emissions,1501,Mercedes GLE
+"Tuesday, September 28, 2021",10028,Cooling System,17220,Mercedes GLE
+"Sunday, July 04, 2021",10029,Infotainment Display,0,Mercedes GLC
+"Wednesday, September 18, 2024",10029,Steering Column,12415,Mercedes GLC
+"Thursday, December 23, 2021",10029,Power Steering,21038,Mercedes GLC
+"Thursday, February 10, 2022",10029,Seat Belts,34883,Mercedes GLC
+"Thursday, February 10, 2022",10029,Seat Belts,34883,Mercedes GLC
+"Monday, March 22, 2021",10029,Seat Belts,19883,Mercedes GLC
+"Friday, June 14, 2019",10030,Transmission,16115,Mercedes S-Class
+"Monday, June 24, 2024",10030,Engine Control Unit,12329,Mercedes S-Class
+"Thursday, November 30, 2023",10030,Steering Column,43529,Mercedes S-Class
+"Thursday, March 19, 2020",10030,Visual System,35514,Mercedes S-Class
+"Friday, August 20, 2021",10030,Visual System,8135,Mercedes S-Class
+,10030,Anti-Lock Braking,32872,Mercedes S-Class
+"Sunday, November 24, 2024",10031,Steering Column,19641,Hyundai Tucson
+"Saturday, November 30, 2019",10031,Fuel Injector,37876,Hyundai Tucson
+"Tuesday, January 21, 2020",10031,Braking System,8241,Hyundai Tucson
+"Wednesday, December 08, 2021",10031,Rear Camera,27590,Hyundai Tucson
+"Wednesday, February 23, 2022",10031,Tire Pressure Monitor,38426,Hyundai Tucson
+"Thursday, April 04, 2024",10031,Fuel System,39795,Hyundai Tucson
+"Friday, May 27, 2022",10031,Rear Camera,25388,Hyundai Tucson
+"Friday, August 09, 2019",10032,Fuel System,1883,Hyundai Santa Fe
+"Friday, September 06, 2024",10032,Engine Control Unit,32560,Hyundai Santa Fe
+"Thursday, July 04, 2019",10032,Braking System,22149,Hyundai Santa Fe
+"Monday, June 14, 2021",10032,Seat Belts,35109,Hyundai Santa Fe
+"Friday, September 27, 2019",10033,Fuel Injector,37300,Hyundai Sonata
+"Thursday, November 21, 2024",10033,Suspension,39012,Hyundai Sonata
+"Thursday, November 21, 2024",10033,Suspension,39012,Hyundai Sonata
+"Sunday, January 13, 2019",10033,Rear Camera,2300,Hyundai Sonata
+"Sunday, January 21, 2024",10033,Fuel System,8783,Hyundai Sonata
+"Saturday, December 26, 2020",10033,Visual System,2983,Hyundai Sonata
+"Tuesday, April 14, 2020",10033,Suspension,16441,Hyundai Sonata
+"Monday, November 04, 2024",10034,Engine Control Unit,40380,Kia Sportage
+"Sunday, March 22, 2020",10034,Fuel Injector,34021,Kia Sportage
+"Tuesday, March 12, 2024",10034,Lights And Instruments,13873,Kia Sportage
+"Tuesday, November 29, 2022",10034,HVAC System,46279,Kia Sportage
+"Friday, April 22, 2022",10034,Anti-Lock Braking,43102,Kia Sportage
+"Wednesday, July 26, 2023",10035,Tire Pressure Monitor,12499,Kia Telluride
+"Friday, January 04, 2019",10035,HVAC System,0,Kia Telluride
+"Sunday, May 08, 2022",10035,Engine Control Unit,13512,Kia Telluride
+"Sunday, July 31, 2022",10035,Electrical System,44894,Kia Telluride
+"Friday, March 31, 2023",10036,Power Steering,10484,Jeep Grand Cherokee
+"Saturday, July 16, 2022",10036,Fuel Injector,25882,Jeep Grand Cherokee
+"Friday, December 30, 2022",10036,Suspension,35896,Jeep Grand Cherokee
+"Thursday, August 01, 2024",10036,Anti-Lock Braking,9035,Jeep Grand Cherokee
+"Sunday, September 25, 2022",10036,Lights And Instruments,19346,Jeep Grand Cherokee
+"Sunday, September 25, 2022",10036,Lights And Instruments,19346,Jeep Grand Cherokee
+"Saturday, September 03, 2022",10036,Infotainment Display,38670,Jeep Grand Cherokee
+"Saturday, April 29, 2023",10037,Engine Control Unit,10165,Jeep Wrangler
+"Saturday, March 11, 2023",10037,Exhaust Emissions,46162,Jeep Wrangler
+"Tuesday, September 24, 2024",10037,Engine Control Unit,3132,Jeep Wrangler
+"Friday, November 12, 2021",10037,Power Steering,4752,Jeep Wrangler
+"Saturday, August 22, 2020",10037,Steering Column,22760,Jeep Wrangler
+"Tuesday, November 09, 2021",10038,Visual System,17738,RAM 1500
+,10038,Airbag Module,8002,RAM 1500
+"Sunday, June 04, 2023",10039,Lights And Instruments,49324,Dodge Charger
+"Saturday, October 26, 2024",10039,Lights And Instruments,35562,Dodge Charger
+"Sunday, December 08, 2024",10039,Exhaust Emissions,25981,Dodge Charger
+"Saturday, December 14, 2024",10039,Visual System,27071,Dodge Charger
+"Saturday, March 14, 2020",10040,Power Steering,11496,Dodge Durango
+"Sunday, July 12, 2020",10040,HVAC System,23683,Dodge Durango
+"Tuesday, July 02, 2024",10040,Transmission,17047,Dodge Durango
+"Sunday, November 21, 2021",10041,Electrical System,0,Volkswagen Tiguan
+"Friday, December 29, 2023",10041,Fuel Injector,17601,Volkswagen Tiguan
+"Tuesday, April 19, 2022",10041,Anti-Lock Braking,22297,Volkswagen Tiguan
+"Wednesday, July 03, 2019",10041,Fuel Injector,44602,Volkswagen Tiguan
+"Saturday, March 23, 2024",10042,HVAC System,18957,Volkswagen Jetta
+"Friday, February 07, 2020",10042,Exhaust Emissions,4024,Volkswagen Jetta
+"Sunday, June 09, 2024",10042,Anti-Lock Braking,44664,Volkswagen Jetta
+"Friday, November 01, 2024",10042,Cooling System,13345,Volkswagen Jetta
+"Monday, June 15, 2020",10043,Exhaust Emissions,11826,Audi Q5
+"Wednesday, April 10, 2024",10043,Braking System,28602,Audi Q5
+"Thursday, March 31, 2022",10043,Seat Belts,17290,Audi Q5
+"Sunday, November 21, 2021",10043,Anti-Lock Braking,36958,Audi Q5
+"Sunday, September 03, 2023",10043,Suspension,22218,Audi Q5
+"Friday, April 21, 2023",10044,Braking System,7156,Audi A4
+"Wednesday, March 24, 2021",10044,Visual System,17538,Audi A4
+"Saturday, December 28, 2019",10044,Electrical System,853,Audi A4
+"Monday, June 29, 2020",10044,Anti-Lock Braking,44404,Audi A4
+"Friday, April 26, 2019",10045,Suspension,2089,Audi Q7
+"Wednesday, May 08, 2024",10045,Steering Column,2217,Audi Q7
+"Friday, February 03, 2023",10045,HVAC System,10760,Audi Q7
+"Wednesday, May 01, 2019",10045,Exhaust Emissions,33128,Audi Q7
+"Monday, August 03, 2020",10045,Airbag Module,17607,Audi Q7
+"Thursday, November 25, 2021",10045,Steering Column,0,Audi Q7
+"Wednesday, October 11, 2023",10046,Seat Belts,26081,Subaru Outback
+"Monday, August 16, 2021",10046,Infotainment Display,26434,Subaru Outback
+"Monday, August 16, 2021",10046,Infotainment Display,26434,Subaru Outback
+"Wednesday, April 03, 2024",10046,Power Steering,1587,Subaru Outback
+"Thursday, April 14, 2022",10046,Steering Column,4563,Subaru Outback
+"Tuesday, September 15, 2020",10046,Transmission,43138,Subaru Outback
+"Saturday, November 23, 2024",10046,Exhaust Emissions,8694,Subaru Outback
+"Monday, January 31, 2022",10046,Airbag Module,25162,Subaru Outback
+"Thursday, January 11, 2024",10047,Rear Camera,36654,Subaru Forester
+"Monday, May 20, 2024",10047,Seat Belts,2364,Subaru Forester
+"Sunday, September 08, 2019",10047,Lights And Instruments,27287,Subaru Forester
+"Monday, April 13, 2020",10047,Suspension,1778,Subaru Forester
+"Wednesday, October 09, 2019",10047,Engine Control Unit,15797,Subaru Forester
+"Sunday, December 15, 2019",10047,Seat Belts,39769,Subaru Forester
+"Wednesday, November 03, 2021",10048,Anti-Lock Braking,11452,Mazda CX-5
+"Wednesday, June 21, 2023",10048,Airbag Module,8442,Mazda CX-5
+"Monday, October 09, 2023",10048,Infotainment Display,32321,Mazda CX-5
+"Wednesday, January 10, 2024",10048,Infotainment Display,14164,Mazda CX-5
+"Friday, May 28, 2021",10048,Seat Belts,47491,Mazda CX-5
+"Friday, February 28, 2020",10048,Lights And Instruments,3505,Mazda CX-5
+"Thursday, March 28, 2024",10048,Steering Column,37555,Mazda CX-5
+"Saturday, September 24, 2022",10049,Exhaust Emissions,37885,Nissan Rogue
+"Friday, September 25, 2020",10049,Visual System,49908,Nissan Rogue
+"Tuesday, June 04, 2024",10049,Braking System,31467,Nissan Rogue
+"Friday, August 23, 2019",10050,Transmission,18063,Nissan Altima
+"Friday, April 17, 2020",10050,Steering Column,2946,Nissan Altima
+"Saturday, November 09, 2019",10050,Cooling System,22742,Nissan Altima
+"Thursday, October 17, 2024",10050,Rear Camera,49265,Nissan Altima

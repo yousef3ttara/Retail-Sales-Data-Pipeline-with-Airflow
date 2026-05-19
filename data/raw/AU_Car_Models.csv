@@ -1,0 +1,51 @@
+Car_ID,Model,Make,Segment,MSRP
+10001,Toyota Camry,Toyota,Sedan,27000
+10002,Toyota Corolla,Toyota,Sedan,22000
+10003,Toyota RAV4,Toyota,SUV,32000
+10004,Toyota Highlander,Toyota,SUV,39000
+10005,Toyota Tacoma,Toyota,Truck,35000
+10006,Ford F-150,Ford,Truck,42000
+10007,Ford Explorer,Ford,SUV,37000
+10008,Ford Mustang,Ford,Coupe,32000
+10009,Ford Bronco,Ford,SUV,36000
+10010,Ford Escape,Ford,SUV,28000
+10011,Chevrolet Silverado,Chevrolet,Truck,43000
+10012,Chevrolet Equinox,Chevrolet,SUV,29000
+10013,Chevrolet Malibu,Chevrolet,Sedan,25000
+10014,Chevrolet Tahoe,Chevrolet,SUV,57000
+10015,Chevrolet Traverse,Chevrolet,SUV,35000
+10016,Honda Accord,Honda,Sedan,29000
+10017,Honda Civic,Honda,Sedan,24000
+10018,Honda CR-V,Honda,SUV,31000
+10019,Honda Pilot,Honda,SUV,39000
+10020,Honda Ridgeline,Honda,Truck,41000
+10021,BMW 3 Series,BMW,Sedan,45000
+10022,BMW 5 Series,BMW,Sedan,58000
+10023,BMW X3,BMW,SUV,49000
+10024,BMW X5,BMW,SUV,67000
+10025,BMW M4,BMW,Coupe,78000
+10026,Mercedes C-Class,Mercedes,Sedan,48000
+10027,Mercedes E-Class,Mercedes,Sedan,64000
+10028,Mercedes GLE,Mercedes,SUV,72000
+10029,Mercedes GLC,Mercedes,SUV,55000
+10030,Mercedes S-Class,Mercedes,Sedan,115000
+10031,Hyundai Tucson,Hyundai,SUV,28000
+10032,Hyundai Santa Fe,Hyundai,SUV,34000
+10033,Hyundai Sonata,Hyundai,Sedan,26000
+10034,Kia Sportage,Kia,SUV,27000
+10035,Kia Telluride,Kia,SUV,38000
+10036,Jeep Grand Cherokee,Jeep,SUV,42000
+10037,Jeep Wrangler,Jeep,SUV,38000
+10038,RAM 1500,RAM,Truck,44000
+10039,Dodge Charger,Dodge,Sedan,36000
+10040,Dodge Durango,Dodge,SUV,41000
+10041,Volkswagen Tiguan,Volkswagen,SUV,31000
+10042,Volkswagen Jetta,Volkswagen,Sedan,22000
+10043,Audi Q5,Audi,SUV,56000
+10044,Audi A4,Audi,Sedan,44000
+10045,Audi Q7,Audi,SUV,72000
+10046,Subaru Outback,Subaru,SUV,30000
+10047,Subaru Forester,Subaru,SUV,28000
+10048,Mazda CX-5,Mazda,SUV,30000
+10049,Nissan Rogue,Nissan,SUV,29000
+10050,Nissan Altima,Nissan,Sedan,25000
