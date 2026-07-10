@@ -4,13 +4,23 @@ import sys, os
 sys.path.insert(0, os.path.dirname(__file__))
 from utils import read_parquet, write_parquet
 
+import logging
+from datetime import datetime
+
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s [%(levelname)s] %(name)s %(message)s',
+)
+log = logging.getLogger(__name__)
+
 def transform_silver():
-    print('=' * 55)
-    print('TASK: transform_silver  ->  Bronze to Silver cleaning')
-    print('=' * 55)
+    start = datetime.now()
+    log.info('START transform_silver')
+
+    total_rows = 0
 
     # ── 1. daily_sales (Fact — main) ─────────────────────────────────
-    print('\nCleaning daily_sales...')
+    log.info('Cleaning daily_sales...')
     ds = read_parquet('bronze/daily_sales.parquet')
     before = len(ds)
 
@@ -28,11 +38,12 @@ def transform_silver():
         ds[col] = ds[col].map({'Y': True, 'N': False})
     ds.columns = [c.replace(' ','_').replace('(','').replace(')','').replace('/','_')
                   for c in ds.columns]
-    print(f'  Rows: {before:,} -> {len(ds):,}  (removed {before-len(ds):,})')
+    log.info(f'  Rows: {before:,} -> {len(ds):,}  (removed {before-len(ds):,})')
     write_parquet(ds, 'silver/daily_sales.parquet')
+    total_rows += len(ds)
 
     # ── 2. sales_by_model (Fact — monthly summary) ───────────────────
-    print('\nCleaning sales_by_model...')
+    log.info('Cleaning sales_by_model...')
     sbm = read_parquet('bronze/sales_by_model.parquet')
     before = len(sbm)
 
@@ -41,11 +52,12 @@ def transform_silver():
     sbm = sbm[sbm['Quantity Sold'] > 0]
     sbm['Model'] = sbm['Model'].str.title()
     sbm['Date']  = pd.to_datetime(sbm['Date'], errors='coerce')
-    print(f'  Rows: {before:,} -> {len(sbm):,}  (removed {before-len(sbm):,})')
+    log.info(f'  Rows: {before:,} -> {len(sbm):,}  (removed {before-len(sbm):,})')
     write_parquet(sbm, 'silver/sales_by_model.parquet')
+    total_rows += len(sbm)
 
     # ── 3. recalls (Satellite Fact) ───────────────────────────────────
-    print('\nCleaning recalls...')
+    log.info('Cleaning recalls...')
     rec = read_parquet('bronze/recalls.parquet')
     before = len(rec)
 
@@ -54,16 +66,20 @@ def transform_silver():
     rec = rec[rec['Units'] > 0]
     valid_ids = read_parquet('bronze/car_models.parquet')['Car_ID'].tolist()
     rec = rec[rec['Car_ID'].isin(valid_ids)]
-    print(f'  Rows: {before:,} -> {len(rec):,}  (removed {before-len(rec):,})')
+    log.info(f'  Rows: {before:,} -> {len(rec):,}  (removed {before-len(rec):,})')
     write_parquet(rec, 'silver/recalls.parquet')
+    total_rows += len(rec)
 
     # ── 4. Dimension tables (pass-through — already clean) ────────────
-    print('\nPassing through dimension tables (no cleaning needed)...')
+    log.info('Passing through dimension tables (no cleaning needed)...')
     for name in ['car_models', 'dealers', 'sentiment']:
         df = read_parquet(f'bronze/{name}.parquet')
         write_parquet(df, f'silver/{name}.parquet')
+        log.info(f'  Passed through {name} rows={len(df):,}')
+        total_rows += len(df)
 
-    print('\n[DONE] Silver transformation complete.')
+    elapsed = (datetime.now() - start).seconds
+    log.info(f'END transform_silver total_rows={total_rows:,} elapsed={elapsed}s')
 
 
 if __name__ == '__main__':

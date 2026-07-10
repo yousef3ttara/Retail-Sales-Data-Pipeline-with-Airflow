@@ -4,7 +4,16 @@ import io, sys, os
 from dotenv import load_dotenv
 from sqlalchemy import create_engine, text
 sys.path.insert(0, os.path.dirname(__file__))
-from utils import read_parquet
+from utils import read_parquet, write_run_log
+
+import logging
+from datetime import datetime
+
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s [%(levelname)s] %(name)s %(message)s',
+)
+log = logging.getLogger(__name__)
 
 load_dotenv()
 
@@ -23,20 +32,31 @@ TABLES = {
     'silver/recalls.parquet':        'fact_recalls',
 }
 
+# تصحيح أسماء الأعمدة المختلفة بين ملفات الـ Parquet وجداول SQL Server
+COLUMN_RENAME_MAP = {
+    'Days_to_Make_Sale': 'Days_to_Sale',
+    'Rain_Y_N':           'Is_Rain',
+    'Snow_Y_N':           'Is_Snow',
+}
+
 def load_gold():
-    print('=' * 55)
-    print('TASK: load_gold  ->  Silver Parquet to SQL Server')
-    print('=' * 55)
+    start = datetime.now()
+    log.info('START load_gold')
 
     engine = create_engine(SQL_CONN)
+    row_counts = {}
+    total_rows = 0
 
     for blob_name, sql_table in TABLES.items():
-        print(f'\nLoading {blob_name} -> gold.{sql_table}...')
+        log.info(f'Loading {blob_name} -> gold.{sql_table}...')
         df = read_parquet(blob_name)
 
         df.columns = (
         df.columns.str.strip().str.replace(' ', '_')
         )
+
+        # إعادة تسمية الأعمدة المختلفة (يتجاهل أي عمود مش موجود أصلاً)
+        df = df.rename(columns=COLUMN_RENAME_MAP)
 
         df.to_sql(
             name      = sql_table,
@@ -46,10 +66,12 @@ def load_gold():
             index     = False,
             chunksize = 5000,
         )
-        print(f'  Loaded {len(df):,} rows into gold.{sql_table}')
+        log.info(f'  Loaded {len(df):,} rows into gold.{sql_table}')
+        row_counts[sql_table] = len(df)
+        total_rows += len(df)
 
     # Run the views SQL after tables are loaded
-    print('\nCreating analytical views...')
+    log.info('Creating analytical views...')
     views_sql = open('sql/create_views.sql').read()
     with engine.connect() as conn:
         for statement in views_sql.split('GO'):
@@ -58,7 +80,14 @@ def load_gold():
                 conn.execute(text(stmt))
         conn.commit()
 
-    print('\n[DONE] Gold layer loaded successfully.')
+    elapsed = (datetime.now() - start).seconds
+    log.info(f'END load_gold total_rows={total_rows:,} elapsed={elapsed}s')
+
+    write_run_log({
+        'task':   'load_gold',
+        **row_counts,
+        'status': 'SUCCESS',
+    })
 
 
 if __name__ == '__main__':
